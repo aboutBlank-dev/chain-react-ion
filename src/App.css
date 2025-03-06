@@ -1,10 +1,9 @@
 * {
   font: 16px Arial, sans-serif;
 }
-
-.chain-reaction-game {
-  width: 80vw;
-  margin: 0 auto;
+.app {
+  display: flex;
+  justify-content: center;
 }
 
 .word-display {

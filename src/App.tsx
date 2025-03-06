@@ -16,7 +16,11 @@ function App() {
     }
   }, []);
 
-  return <ChainReactionGame words={wordList} />;
+  return (
+    <div className='app'>
+      <ChainReactionGame words={wordList} />
+    </div>
+  );
 }
 
 export default App;
